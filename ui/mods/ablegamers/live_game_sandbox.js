@@ -14,6 +14,8 @@
   model.sandbox_unit_queue_item = function(item) {
     return item.join(' : ')
   }
+
+  handlers.sandbox_unit_queue = model.sandbox_unit_queue
 })()
 
 require([
