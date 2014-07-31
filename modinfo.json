@@ -1,27 +1,24 @@
 {
   "author": "wondible",
   "build": "69721",
-  "category": ["in-game", "ui"],
+  "category": ["sandbox", "ui"],
   "context": "client",
-  "date": "2014/07/30",
-  "description": "Pull in the donation feed for the ablegamers tournament",
-  "display_name": "AbleGamers",
+  "date": "2014/07/31",
+  "description": "Donation menu and paste queue for create unit sandbox panel.",
+  "display_name": "Sandbox Unit Menu (AbleGamers)",
   "forum": null,
-  "identifier": "com.wondible.pa.ablegamers",
+  "identifier": "com.wondible.pa.sandbox_unit_menu.ablegamers",
   "priority": 100,
   "scenes": {
     "global_mod_list": [
-      "coui://ui/mods/ablegamers/keybinding.js"
-    ],
-    "start": [
-      "coui://ui/mods/ablegamers/start.js"
+      "coui://ui/mods/sandbox_unit_menu/keybinding.js"
     ],
     "live_game": [
-      "coui://ui/mods/ablegamers/live_game.js"
+      "coui://ui/mods/sandbox_unit_menu/live_game.js"
     ],
     "live_game_sandbox": [
-      "coui://ui/mods/ablegamers/live_game_sandbox.css",
-      "coui://ui/mods/ablegamers/live_game_sandbox.js"
+      "coui://ui/mods/sandbox_unit_menu/live_game_sandbox.css",
+      "coui://ui/mods/sandbox_unit_menu/live_game_sandbox.js"
     ]
   },
   "signature": "not yet implemented",

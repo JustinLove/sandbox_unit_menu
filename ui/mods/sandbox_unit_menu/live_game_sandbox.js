@@ -1,7 +1,7 @@
 (function() {
   var paths = require.s.contexts._.config.paths
-  paths.ablegamers = 'coui://ui/mods/ablegamers'
-  paths.text = paths.text || 'coui://ui/mods/ablegamers/text'
+  paths.sandbox_unit_menu = 'coui://ui/mods/sandbox_unit_menu'
+  paths.text = paths.text || 'coui://ui/mods/sandbox_unit_menu/text'
 
   model.menu_items = ko.observable([])
   model.sandbox_unit_queue = ko.observable([])
@@ -16,12 +16,14 @@
   }
 
   handlers.sandbox_unit_queue = model.sandbox_unit_queue
+
+  api.Panel.message('', 'inputmap.reload');
 })()
 
 require([
-  'ablegamers/menu',
-  'text!ablegamers/sandbox_menu.html',
-  'text!ablegamers/sandbox_queue.html'
+  'sandbox_unit_menu/menu',
+  'text!sandbox_unit_menu/sandbox_menu.html',
+  'text!sandbox_unit_menu/sandbox_queue.html'
 ], function(menu, menuHtml, queueHtml) {
   model.menu_items(menu)
 
