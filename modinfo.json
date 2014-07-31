@@ -10,8 +10,14 @@
   "identifier": "com.wondible.pa.ablegamers",
   "priority": 100,
   "scenes": {
+    "global_mod_list": [
+      "coui://ui/mods/ablegamers/keybinding.js"
+    ],
     "start": [
       "coui://ui/mods/ablegamers/start.js"
+    ],
+    "live_game": [
+      "coui://ui/mods/ablegamers/live_game.js"
     ],
     "live_game_sandbox": [
       "coui://ui/mods/ablegamers/live_game_sandbox.css",

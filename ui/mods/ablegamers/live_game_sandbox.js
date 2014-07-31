@@ -8,7 +8,7 @@
   model.sandbox_copy_menu = function(item) {
     engine.call('unit.debug.setSpecId', item.build[0][1])
     model.sandbox_unit_queue(item.build)
-    api.Panel.message(api.Panel.parentId, 'sandboxMenuItem', item)
+    api.Panel.message(api.Panel.parentId, 'sandbox_menu_item', item)
   }
 
   model.sandbox_unit_queue_item = function(item) {
