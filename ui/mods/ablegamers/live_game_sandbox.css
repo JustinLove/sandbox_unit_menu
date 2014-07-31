@@ -1,0 +1,7 @@
+.menu_item:hover {
+  background:#00b3ff;
+}
+
+.menu_item:active {
+  background:#1e7aa1;
+}
