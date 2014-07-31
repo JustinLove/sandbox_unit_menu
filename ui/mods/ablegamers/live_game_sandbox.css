@@ -5,3 +5,11 @@
 .menu_item:active {
   background:#1e7aa1;
 }
+
+div.div_sandbox_bottom_spacer {
+  height: auto;
+}
+
+ul.div_sandbox_dock {
+  display:block;
+}
