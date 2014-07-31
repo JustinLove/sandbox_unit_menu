@@ -6,6 +6,7 @@
   model.menu_items = ko.observable([])
   model.sandbox_copy_menu = function(item) {
     console.log(item)
+    engine.call('unit.debug.setSpecId', item.build[0][1])
   }
 })()
 

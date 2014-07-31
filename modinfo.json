@@ -14,6 +14,7 @@
       "coui://ui/mods/ablegamers/start.js"
     ],
     "live_game_sandbox": [
+      "coui://ui/mods/ablegamers/live_game_sandbox.css",
       "coui://ui/mods/ablegamers/live_game_sandbox.js"
     ]
   },
