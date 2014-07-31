@@ -61,7 +61,6 @@ define([], function() {
       [1, "/pa/units/land/laser_defense_adv/laser_defense_adv.json"],
       [1, "/pa/units/land/laser_defense_adv/laser_defense_adv.json"],
       [1, "/pa/units/land/laser_defense_adv/laser_defense_adv.json"],
-      [1, "/pa/units/land/laser_defense_adv/laser_defense_adv.json"],
     ]},
     { donation: 10, code: 'D5', build: [
       [1, "/pa/units/land/air_defense_adv/air_defense_adv.json"],
