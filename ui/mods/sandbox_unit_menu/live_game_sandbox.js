@@ -11,8 +11,12 @@
     api.Panel.message(api.Panel.parentId, 'sandbox_menu_item', item)
   }
 
+  model.sandbox_menu_hover = function(item) {
+    model.sandbox_unit_hover('$ ' + item.donation + ' - ' + item.build[0].join('x '))
+  }
+
   model.sandbox_unit_queue_item = function(item) {
-    return item.join(' : ')
+    return item.join('x ')
   }
 
   handlers.sandbox_unit_queue = model.sandbox_unit_queue
