@@ -11,7 +11,10 @@
   "priority": 100,
   "scenes": {
     "start": [
-      "coui://ui/mods/ablegamers/ablegamers.js"
+      "coui://ui/mods/ablegamers/start.js"
+    ],
+    "live_game_sandbox": [
+      "coui://ui/mods/ablegamers/live_game_sandbox.js"
     ]
   },
   "signature": "not yet implemented",

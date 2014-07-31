@@ -1,8 +1,5 @@
-(function() {
-  //var donations = "http://www.gofundme.com/mvc.php?route=donate/pagingdonationsb&url=planetaryablegamers&idx=0&type=recent"
-  var donations = "coui://ui/mods/ablegamers/test.html"
-
-  var menu = [
+define([], function() {
+  return [
     { donation: 1, code: 'A1', build: [
       [20, "/pa/units/land/bot_bomb/bot_bomb.json"],
     ]},
@@ -90,37 +87,4 @@
       [1, "/pa/units/land/avatar_factory/avatar_factory.json"],
     ]},
   ]
-
-  var menuMap = {}
-  menu.forEach(function(item) {
-    menuMap[item.code] = item
-  })
-
-  //load html dynamically
-  loadTemplate = function (element, url, model) {
-    element.load(url, function () {
-      console.log("Loading html " + url, arguments);
-      ko.applyBindings(model, element.get(0));
-    });
-  };
-
-  //var container = $('<div id="insertion_point"></div>')
-  //container.appendTo('body')
-  //loadTemplate(container, donations, model);
-
-  $.get(donations, function(html, status) {
-    if (status == "success") {
-      var $doners = $(html).find(".doner")
-      console.log([html, $doners])
-      $doners.each(function(i, doner) {
-        var amount = $(doner).find('.damt').text().match(/\d+(\.\d+)?/)[0]
-        var comment = $(doner).find('.dcom').text().trim()
-        var codes = comment.match(/[abcdefABCDEF][123456]/g) || []
-        codes = codes.map(function(s) {return s.toUpperCase()})
-        var orders = codes.map(function(c) {return menuMap[c]})
-
-        console.log(amount, comment, codes, orders)
-      })
-    }
-  })
-})()
+})
