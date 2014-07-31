@@ -6,7 +6,7 @@
   "date": "2014/07/31",
   "description": "Donation menu and paste queue for create unit sandbox panel.",
   "display_name": "Sandbox Unit Menu (AbleGamers)",
-  "forum": null,
+  "forum": "https://forums.uberent.com/threads/wip-sandbox-unit-menu-ablegamers.62461/",
   "identifier": "com.wondible.pa.sandbox_unit_menu",
   "priority": 100,
   "scenes": {
