@@ -1,0 +1,20 @@
+{
+  "author": "wondible",
+  "build": "69721",
+  "category": ["in-game", "ui"],
+  "context": "client",
+  "date": "2014/07/30",
+  "description": "Pull in the donation feed for the ablegamers tournament",
+  "display_name": "AbleGamers",
+  "forum": null,
+  "identifier": "com.wondible.pa.ablegamers",
+  "priority": 100,
+  "scenes": {
+    "start": [
+      "coui://ui/mods/ablegamers/ablegamers.js"
+    ]
+  },
+  "signature": "not yet implemented",
+  "version": "0.1.0"
+}
+
