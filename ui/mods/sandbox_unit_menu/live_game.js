@@ -1,5 +1,5 @@
 (function() {
-  var pasteUnits = model.pasteUnits || function(n) {
+  model.pasteUnits = model.pasteUnits || function(n) {
     if (!model.cheatAllowCreateUnit()) return
     if (n < 1) return
 
@@ -24,7 +24,7 @@
     }
   }
 
-  var pasteShift = function() {
+  model.pasteShift = function() {
     if (model.playerControlFlags().indexOf(true) == -1) return
 
     shiftQueue()
@@ -36,7 +36,4 @@
       pasteQueue = item.build.concat()
     }
   }
-
-  model.pasteUnits = pasteUnits
-  model.pasteShift = pasteShift
 })()
