@@ -32,6 +32,7 @@
   handlers.sandbox_menu_item = function(item) {
     if (item) {
       pasteQueue = item.build.concat()
+      api.panels.sandbox && api.panels.sandbox.message('sandbox_unit_queue', pasteQueue)
     }
   }
 })()
