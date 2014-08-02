@@ -15,9 +15,7 @@
     var item = pasteQueue.shift()
     api.panels.sandbox && api.panels.sandbox.message('sandbox_unit_queue', pasteQueue)
     if (item) {
-      var spec = item[1]
-      var unit = model.unitSpecs[spec]
-      selectedUnit = {spec: spec, name: (unit && unit.name) || 'unknown'}
+      engine.call('unit.debug.setSpecId', item[1])
       pasteBurst = item[0]
     } else {
       pasteBurst = 0
