@@ -3,6 +3,10 @@
   paths.sandbox_unit_menu = 'coui://ui/mods/sandbox_unit_menu'
   paths.text = paths.text || 'coui://ui/mods/sandbox_unit_menu/text'
 
+  if (!model.sandboxWidth) {
+    model.sandboxWidth = ko.observable(373)
+  }
+
   model.menu_items = ko.observable([])
   model.sandbox_unit_queue = ko.observable([])
   model.sandbox_copy_menu = function(item) {

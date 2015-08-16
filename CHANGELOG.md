@@ -5,3 +5,4 @@
 Update to current build
 
 - Keybinding interface changed
+- Compatible with Sandbox Unit Organizer width
