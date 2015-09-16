@@ -11,9 +11,8 @@
   var pasteQueue = []
   var pasteBurst = 0
 
-  var shiftQueue = function() {
-    var item = pasteQueue.shift()
-    api.panels.sandbox && api.panels.sandbox.message('sandbox_unit_queue', pasteQueue)
+  var loadAction = function() {
+    var item = pasteQueue[0]
     if (item) {
       engine.call('unit.debug.setSpecId', item[1])
       pasteBurst = item[0]
@@ -22,16 +21,24 @@
     }
   }
 
+  var shiftQueue = function() {
+    loadAction()
+    pasteQueue.shift()
+    api.panels.sandbox && api.panels.sandbox.message('sandbox_unit_queue', pasteQueue)
+  }
+
   model.pasteShift = function() {
     if (model.playerControlFlags().indexOf(true) == -1) return
 
     shiftQueue()
     model.pasteUnits(pasteBurst)
+    loadAction()
   }
 
   handlers.sandbox_menu_item = function(item) {
     if (item) {
       pasteQueue = item.build.concat()
+      loadAction()
       api.panels.sandbox && api.panels.sandbox.message('sandbox_unit_queue', pasteQueue)
     }
   }
