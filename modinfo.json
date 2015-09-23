@@ -3,9 +3,9 @@
   "build": "87296",
   "category": ["sandbox", "ui"],
   "context": "client",
-  "date": "2015/09/16",
+  "date": "2015/09/23",
   "description": "Donation menu and paste queue for create unit sandbox panel.",
-  "display_name": "Sandbox Unit Menu (AbleGamers)",
+  "display_name": "Sandbox Unit Menu (AbleGamers 2015)",
   "forum": "https://forums.uberent.com/threads/wip-sandbox-unit-menu-ablegamers.62461/",
   "identifier": "com.wondible.pa.sandbox_unit_menu",
   "priority": 100,
@@ -22,6 +22,6 @@
     ]
   },
   "signature": "not yet implemented",
-  "version": "0.4.0"
+  "version": "1.0.0"
 }
 

@@ -1,8 +1,19 @@
-.menu_item:hover {
+.menu_item {
+  text-align: center;
+}
+
+.menu_code {
+  font-size: 16px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border: solid #00b3ff 1px;
+}
+
+.menu_code:hover {
   background:#00b3ff;
 }
 
-.menu_item:active {
+.menu_code:active {
   background:#1e7aa1;
 }
 

@@ -1,5 +1,9 @@
 # Sandbox Unit Menu Changelog
 
+## 1.0.0
+
+- 2015 menu. See tag menu2014 for last years selection
+
 ## 0.4.0
 
 - Immediately unit and count when item selected
