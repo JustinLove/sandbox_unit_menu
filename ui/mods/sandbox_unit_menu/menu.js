@@ -6,16 +6,38 @@ define([], function() {
     { donation: 1, code: 'A2', build: [
       [5, "/pa/units/air/transport/transport.json"],
     ]},
-    { donation: 1, code: 'A3B', build: [
+    { donation: 1, code: 'A3', build: [
+      [1, "/pa/units/land/land_mine/land_mine.json"],
+      [1, "/pa/units/land/land_mine/land_mine.json"],
+      [1, "/pa/units/land/land_mine/land_mine.json"],
+      [1, "/pa/units/land/land_mine/land_mine.json"],
+      [1, "/pa/units/land/land_mine/land_mine.json"],
+      [1, "/pa/units/land/land_mine/land_mine.json"],
+      [1, "/pa/units/land/land_mine/land_mine.json"],
+      [1, "/pa/units/land/land_mine/land_mine.json"],
+      [1, "/pa/units/land/land_mine/land_mine.json"],
+      [1, "/pa/units/land/land_mine/land_mine.json"],
+      [1, "/pa/units/land/land_mine/land_mine.json"],
+      [1, "/pa/units/land/land_mine/land_mine.json"],
+      [1, "/pa/units/land/land_mine/land_mine.json"],
+      [1, "/pa/units/land/land_mine/land_mine.json"],
+      [1, "/pa/units/land/land_mine/land_mine.json"],
+      [1, "/pa/units/land/land_mine/land_mine.json"],
+      [1, "/pa/units/land/land_mine/land_mine.json"],
+      [1, "/pa/units/land/land_mine/land_mine.json"],
+      [1, "/pa/units/land/land_mine/land_mine.json"],
+      [1, "/pa/units/land/land_mine/land_mine.json"],
+    ]},
+    { donation: 1, code: 'A4B', build: [
       [1, "/pa/units/land/bot_factory/bot_factory.json"],
     ]},
-    { donation: 1, code: 'A3V', build: [
+    { donation: 1, code: 'A4V', build: [
       [1, "/pa/units/land/vehicle_factory/vehicle_factory.json"],
     ]},
-    { donation: 1, code: 'A3A', build: [
+    { donation: 1, code: 'A4A', build: [
       [1, "/pa/units/air/air_factory/air_factory.json"],
     ]},
-    { donation: 1, code: 'A3N', build: [
+    { donation: 1, code: 'A4N', build: [
       [1, "/pa/units/sea/naval_factory/naval_factory.json"],
     ]},
     { donation: 3, code: 'B1', build: [
@@ -55,6 +77,9 @@ define([], function() {
     ]},
     { donation: 10, code: 'D2', build: [
       [10, "/pa/units/land/bot_nanoswarm/bot_nanoswarm.json"],
+    ]},
+    { donation: 10, code: 'D3', build: [
+      [2, "/pa/units/sea/hover_ship/hover_ship.json"],
     ]},
     { donation: 15, code: 'E1', build: [
       [1, "/pa/units/land/bot_support_commander/bot_support_commander.json"],
