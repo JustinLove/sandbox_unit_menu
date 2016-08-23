@@ -1,5 +1,9 @@
 # Sandbox Unit Menu Changelog
 
+## 2.0.0
+
+- 2016 menu. See tag menu2015 for last years selection
+
 ## 1.1.0
 
 - Add mines and kaiju
