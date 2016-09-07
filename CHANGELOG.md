@@ -1,5 +1,9 @@
 # Sandbox Unit Menu Changelog
 
+## 2.1.0
+
+- Item ordering adjustments in basic factories and titans
+
 ## 2.0.0
 
 - 2016 menu. See tag menu2015 for last years selection
