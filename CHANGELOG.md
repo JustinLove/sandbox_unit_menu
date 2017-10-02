@@ -1,5 +1,11 @@
 # Sandbox Unit Menu Changelog
 
+## 2.2.0
+
+- Add discounts to data
+- Add discounts function to calcuale current prices
+- Add UI to change discount level
+
 ## 2.1.0
 
 - Item ordering adjustments in basic factories and titans

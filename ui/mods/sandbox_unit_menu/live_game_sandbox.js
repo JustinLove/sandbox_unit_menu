@@ -15,6 +15,9 @@
     api.Panel.message(api.Panel.parentId, 'sandbox_menu_item', item)
   }
   model.discount_level = ko.observable(0)
+  model.discount_level.subscribe(function(level) {
+    api.Panel.message('', 'sandbox_unit_menu.discount_level', level)
+  })
   model.change_discount_level = function(delta) {
     model.discount_level(Math.max(0, model.discount_level() + delta))
   }
