@@ -34,10 +34,15 @@
 
 require([
   'sandbox_unit_menu/menu',
+  'sandbox_unit_menu/discounts',
   'text!sandbox_unit_menu/sandbox_menu.html',
   'text!sandbox_unit_menu/sandbox_queue.html'
-], function(menu, menuHtml, queueHtml) {
+], function(menu, discounts, menuHtml, queueHtml) {
   model.menu_items(menu)
+
+  model.discount_level.subscribe(function(level) {
+    model.menu_items(discounts.discounts(model.menu_items(), model.discount_level()))
+  })
 
   var $menu = $(menuHtml)
   ko.applyBindings(model, $menu[0])
