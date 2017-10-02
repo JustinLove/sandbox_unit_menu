@@ -14,6 +14,10 @@
     model.sandbox_unit_queue(item.build)
     api.Panel.message(api.Panel.parentId, 'sandbox_menu_item', item)
   }
+  model.discount_level = ko.observable(0)
+  model.change_discount_level = function(delta) {
+    model.discount_level(Math.max(0, model.discount_level() + delta))
+  }
 
   model.sandbox_menu_hover = function(item) {
     model.sandbox_unit_hover('$ ' + item.donation + ' - ' + item.build[0].join('x '))

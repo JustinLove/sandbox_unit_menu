@@ -13,6 +13,26 @@
       </a>
     </div>
     <!-- /ko -->
+    <div class="div_sandbox_unit_item menu_item">
+      <a href="#" data-bind="click: function () { model.change_discount_level(+1); },
+       event: {
+            mouseover: function () { model.sandbox_unit_hover('Increase discount'); },
+            mouseout: function () { model.sandbox_unit_hover(''); }
+
+          }">
+        <div class="menu_code" data-bind="text: discount_level">+</div>
+      </a>
+    </div>
+    <div class="div_sandbox_unit_item menu_item">
+      <a href="#" data-bind="click: function () { model.change_discount_level(-1); },
+       event: {
+            mouseover: function () { model.sandbox_unit_hover('Decrease discount'); },
+            mouseout: function () { model.sandbox_unit_hover(''); }
+
+          }">
+        <div class="menu_code">-</div>
+      </a>
+    </div>
   </div>
 </div>
 <!-- /ko -->
