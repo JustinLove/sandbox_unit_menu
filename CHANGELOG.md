@@ -1,9 +1,13 @@
 # Sandbox Unit Menu Changelog
 
+## 3.0.0
+
+- 2017 draft. See tag menu2016 for last years selection
+
 ## 2.2.0
 
 - Add discounts to data
-- Add discounts function to calcuale current prices
+- Add discounts function to calculate current prices
 - Add UI to change discount level
 
 ## 2.1.0
