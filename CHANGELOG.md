@@ -1,5 +1,9 @@
 # Sandbox Unit Menu Changelog
 
+## 3.1.0
+
+- Final menu ordering and corrections
+
 ## 3.0.0
 
 - 2017 draft. See tag menu2016 for last years selection
