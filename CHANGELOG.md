@@ -1,5 +1,9 @@
 # Sandbox Unit Menu Changelog
 
+## 4.1.0
+
+- Mines, storage, flame turret, holtkins, shield
+
 ## 4.0.0
 
 - 2018 menu draft
