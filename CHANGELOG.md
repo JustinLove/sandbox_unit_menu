@@ -1,7 +1,8 @@
 # Sandbox Unit Menu Changelog
 
-## 4.1.1
+## 4.2.0
 
+- Update count in Bulk Paste Units
 - Fix queue attachment in newer PA
 
 ## 4.1.0

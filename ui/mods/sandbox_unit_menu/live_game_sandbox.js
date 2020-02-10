@@ -9,6 +9,11 @@
 
   model.menu_items = ko.observable([])
   model.sandbox_unit_queue = ko.observable([])
+  model.sandbox_unit_queue.subscribe(function(queue) {
+    if (queue[0] && model.bulkPasteCount) {
+      model.bulkPasteCount(queue[0][0])
+    }
+  })
   model.sandbox_copy_menu = function(item) {
     engine.call('unit.debug.setSpecId', item.build[0][1])
     model.sandbox_unit_queue(item.build)
