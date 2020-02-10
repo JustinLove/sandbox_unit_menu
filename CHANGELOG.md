@@ -1,5 +1,9 @@
 # Sandbox Unit Menu Changelog
 
+## 4.1.1
+
+- Fix queue attachment in newer PA
+
 ## 4.1.0
 
 - Mines, storage, flame turret, holtkins, shield

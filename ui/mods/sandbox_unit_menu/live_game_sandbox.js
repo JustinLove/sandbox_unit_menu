@@ -47,11 +47,11 @@ require([
     model.menu_items(discounts.discounts(model.menu_items(), model.discount_level()))
   })
 
+  var $queue = $(queueHtml)
+  ko.applyBindings(model, $queue[0])
+  $('.div_sandbox_dock:first').after($queue)
+
   var $menu = $(menuHtml)
   ko.applyBindings(model, $menu[0])
   $('.div_sandbox_dock:first').append($menu)
-
-  var $queue = $(queueHtml)
-  ko.applyBindings(model, $queue[0])
-  $('.div_sandbox_bottom_spacer').append($queue)
 })

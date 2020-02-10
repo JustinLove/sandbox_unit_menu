@@ -1,9 +1,9 @@
 {
   "author": "wondible",
-  "build": "112314",
+  "build": "113953",
   "category": ["sandbox"],
   "context": "client",
-  "date": "2018/11/23",
+  "date": "2020/02/10",
   "description": "Donation menu and paste queue for create unit sandbox panel.",
   "display_name": "Sandbox Unit Menu (AbleGamers 2018)",
   "forum": "https://forums.uberent.com/threads/wip-sandbox-unit-menu-ablegamers.62461/",
@@ -22,6 +22,6 @@
     ]
   },
   "signature": "not yet implemented",
-  "version": "4.1.0"
+  "version": "4.1.1"
 }
 
