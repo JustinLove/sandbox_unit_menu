@@ -4,6 +4,7 @@
 
 - Update count in Bulk Paste Units
 - Fix queue attachment in newer PA
+- Menu items are exlicitly tagged if they can't be combined into larger groups
 
 ## 4.1.0
 
