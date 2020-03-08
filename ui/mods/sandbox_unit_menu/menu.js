@@ -56,10 +56,13 @@ define([], function() {
       [10, "/pa/units/air/fighter_adv/fighter_adv.json"],
     ]},
     { code: 'E1', donation: 15, discounts: [15,7,3,1], build: [
-      [1, "/pa/units/land/artillery_long/artillery_long.json"],
+      [1, "/pa/units/land/l_artillery_long/l_artillery_long.json"],
     ]},
     { code: 'E2', donation: 15, discounts: [15,7,3,1], individual: true, build: [
       [1, "/pa/units/land/l_shield_gen/l_shield_gen.json"],
+    ]},
+    { code: 'E3', donation: 15, discounts: [15,7,3,1], build: [
+      [8, "/pa/units/air/strafer/strafer.json"],
     ]},
     { code: 'G1', donation: 10, discounts: [10,5,3,1], build: [
       [1, "/pa/units/orbital/delta_v_engine/delta_v_engine.json"],

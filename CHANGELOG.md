@@ -1,5 +1,9 @@
 # Sandbox Unit Menu Changelog
 
+## 5.0.0
+
+- 2020 menu
+
 ## 4.2.0
 
 - Update count in Bulk Paste Units
